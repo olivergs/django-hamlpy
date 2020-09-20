@@ -23,7 +23,7 @@ def _read_requirements(filename):
 
 setup(
     name='django-hamlpy',
-    version=__import__('hamlpy').__version__,
+    version='1.2.1',
     description='Haml like syntax for Django templates.',
     long_description=read_md('README.md'),
 
